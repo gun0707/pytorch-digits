@@ -1,0 +1,214 @@
+{
+  "hidden_dim": 16,
+  "epochs": 15,
+  "seed": 42,
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "train_size": 1257,
+  "val_size": 270,
+  "test_size": 270,
+  "torch_version": "2.15.0+cpu",
+  "sklearn_version": "1.9.1",
+  "best_epoch": 15,
+  "best_val_accuracy": 0.8703703880310059,
+  "test_accuracy": 0.9111111164093018,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.3073144859990715,
+      "val_accuracy": 0.11481481790542603
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.2656064784612178,
+      "val_accuracy": 0.16296295821666718
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.212763208952231,
+      "val_accuracy": 0.307407408952713
+    },
+    {
+      "epoch": 4,
+      "train_loss": 2.1408395281649812,
+      "val_accuracy": 0.5444444417953491
+    },
+    {
+      "epoch": 5,
+      "train_loss": 2.045582009386049,
+      "val_accuracy": 0.6000000238418579
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.934148625997484,
+      "val_accuracy": 0.6666666865348816
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.8066102357354539,
+      "val_accuracy": 0.7037037014961243
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.6704244509327477,
+      "val_accuracy": 0.7629629373550415
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.530117552434061,
+      "val_accuracy": 0.800000011920929
+    },
+    {
+      "epoch": 10,
+      "train_loss": 1.392901206263115,
+      "val_accuracy": 0.7962962985038757
+    },
+    {
+      "epoch": 11,
+      "train_loss": 1.2624409402659136,
+      "val_accuracy": 0.8518518805503845
+    },
+    {
+      "epoch": 12,
+      "train_loss": 1.1417976199584816,
+      "val_accuracy": 0.8370370268821716
+    },
+    {
+      "epoch": 13,
+      "train_loss": 1.0333684183058516,
+      "val_accuracy": 0.855555534362793
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.9388247350899113,
+      "val_accuracy": 0.8666666746139526
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.8564735670457687,
+      "val_accuracy": 0.8703703880310059
+    }
+  ],
+  "wrong_examples": [
+    {
+      "test_index": 8,
+      "label": 9,
+      "prediction": 7
+    },
+    {
+      "test_index": 11,
+      "label": 9,
+      "prediction": 4
+    },
+    {
+      "test_index": 26,
+      "label": 2,
+      "prediction": 7
+    },
+    {
+      "test_index": 27,
+      "label": 8,
+      "prediction": 5
+    },
+    {
+      "test_index": 43,
+      "label": 8,
+      "prediction": 2
+    },
+    {
+      "test_index": 96,
+      "label": 8,
+      "prediction": 1
+    },
+    {
+      "test_index": 105,
+      "label": 2,
+      "prediction": 1
+    },
+    {
+      "test_index": 107,
+      "label": 8,
+      "prediction": 1
+    },
+    {
+      "test_index": 114,
+      "label": 8,
+      "prediction": 1
+    },
+    {
+      "test_index": 121,
+      "label": 8,
+      "prediction": 1
+    },
+    {
+      "test_index": 138,
+      "label": 1,
+      "prediction": 6
+    },
+    {
+      "test_index": 167,
+      "label": 1,
+      "prediction": 9
+    },
+    {
+      "test_index": 168,
+      "label": 6,
+      "prediction": 4
+    },
+    {
+      "test_index": 176,
+      "label": 9,
+      "prediction": 5
+    },
+    {
+      "test_index": 179,
+      "label": 9,
+      "prediction": 7
+    },
+    {
+      "test_index": 194,
+      "label": 9,
+      "prediction": 3
+    },
+    {
+      "test_index": 199,
+      "label": 8,
+      "prediction": 1
+    },
+    {
+      "test_index": 209,
+      "label": 8,
+      "prediction": 1
+    },
+    {
+      "test_index": 218,
+      "label": 0,
+      "prediction": 4
+    },
+    {
+      "test_index": 236,
+      "label": 8,
+      "prediction": 7
+    },
+    {
+      "test_index": 252,
+      "label": 9,
+      "prediction": 7
+    },
+    {
+      "test_index": 256,
+      "label": 8,
+      "prediction": 1
+    },
+    {
+      "test_index": 257,
+      "label": 1,
+      "prediction": 9
+    },
+    {
+      "test_index": 258,
+      "label": 8,
+      "prediction": 5
+    }
+  ]
+}
